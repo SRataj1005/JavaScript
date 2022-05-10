@@ -20,15 +20,11 @@
       .then(array => {
       answer.innerHTML = "";
       array.forEach(post => answer.innerHTML +=
-        
-       <div>
-         <ul>
-           <li>User ID: ${post.userId}</li>
-         </ul>
+         '    
+          ${post.userId}
         <hr/>
-       </div> s
-        );
-      
+        '
+          );
           
         
       })
