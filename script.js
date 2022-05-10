@@ -26,7 +26,7 @@
            <li>User ID: ${post.userId}</li>
          </ul>
         <hr/>
-       </div> 
+       </div> s
         );
       
           
